@@ -17,7 +17,7 @@ api = RakHubAPI('your-api-key')
 ```
 Затем вы можете запустить сессию, передав параметры в метод `start_session`:
 ```python
-rakstart = api.start_session(user_id=1, nickname='test', timeout=12, session_name='test-session', ip='127.0.0.1')
+rakstart = api.start_session(token=1, nickname='test', timeout=12, session_name='test-session', ip='127.0.0.1')
 ```
 В этом примере `nickname` - это никнейм игрока, `timeout` - это время в часах, через которое сессия будет остановлена, `session_name` - это имя сессии, и `ip` - это IP-адрес сервера без порта 7777.
 
