@@ -6,7 +6,7 @@
 
 Установите библиотеку с помощью pip:
 ```bash
-    pip install RakHubAPI
+pip install RakHubAPI
 ```
 ## Использование
 
