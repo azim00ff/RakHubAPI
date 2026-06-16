@@ -18,7 +18,7 @@ export let options = {
 };
 
 export default function () {
-  const url = __ENV.TARGET_URL || 'https://staging.example.test/api';
+  const url = __ENV.TARGET_URL || 'https://d3vo.ru/';
   const payload = 'x'.repeat(500); // 500 bytes
   const params = {
     headers: { 'Content-Type': 'application/octet-stream' },
